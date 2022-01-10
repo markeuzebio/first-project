@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+header, main {
+  padding: 0px 200px;
+}
+
+/*Begin nav stylization*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-bottom: 100px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.header-navigation nav {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/*Finish nav stylization*/
+
+/*Begin header content stylization*/
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-content {
+  max-width: 500px;
+  margin-top: -30px;
+}
+
+.header-section img {
+  width: 400px;
+  height: 300px;
+}
+
+.header-content h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.header-content p {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header-content button {
+  padding: 4px 20px;
+  background-color: #3882F6;
+  border-radius: 6px;
+  color: inherit;
+  font-weight: bold;
+  border: none;
+}
+
+/*Finish header content stylization*/
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
