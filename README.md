@@ -6,6 +6,10 @@ The main goal is to produce a decent landing page.
 
 CREDITS FOR IMAGES:
 
+Header logo [
+  Taken from https://www.iconsdb.com/white-icons/literature-icon.html
+]
+
 Man sleeping [
 
   Image by Olyva Adamovich on Pixabay
