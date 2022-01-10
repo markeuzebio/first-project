@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-header, main {
+header {
   padding: 0px 200px;
 }
 
@@ -14,6 +14,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 70px;
+  height: 75vh;
   padding-bottom: 100px;
   background-color: #1F2937;
   color: #F9FAF8;
@@ -52,6 +53,7 @@ header {
 .header-section img {
   width: 400px;
   height: 300px;
+  border-radius: 40px 12px;
 }
 
 .header-content h1 {
@@ -74,6 +76,71 @@ header {
 }
 
 /*Finish header content stylization*/
+
+/*Begin main content stylization*/
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px 200px;
+}
+
+.main-section, article {
+  margin-bottom: 100px;
+}
+
+.main-content-info img {
+  width: 170px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.main-content-info {
+  max-width: 200px;
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+}
+
+#main-quote {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+#main-quote div {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-quote {
+  width: 800px;
+  font-style: italic; 
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.author-quote {
+  align-self: flex-end;
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+/*Finish main content stylization*/
 
 a {
   color: inherit;
